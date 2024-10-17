@@ -182,7 +182,7 @@ st.write(f"**Minimum Deaths**: {int(min_deaths)}")  # Convert to integer
 st.write(f"**Maximum Deaths**: {int(max_deaths)}")  # Convert to integer
 
 # NEW SECTION: Radar chart showing distribution of deaths due to multiple hazards in the selected district
-st.subheader(f'Distribution of Deaths Due to Multiple Hazards in {selected_district}')
+st.subheader(f'Distribution of Deaths Due to Multiple Casualties in {selected_district}')
 
 # Extract the death values for the selected district across all hazard columns
 hazard_death_values = csv_data[csv_data['District'] == selected_district][hazard_columns].values.flatten()
