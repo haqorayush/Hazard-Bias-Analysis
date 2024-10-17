@@ -210,7 +210,7 @@ ax.set_xticks(angles[:-1])
 ax.set_xticklabels(hazard_columns, fontsize=10)
 
 # Set the title and remove y-axis labels for cleaner look
-plt.title(f'Distribution of Deaths Due to Hazards in {selected_district.title()}', size=15)
+plt.title(f'Distribution of Deaths Due to Casualties in {selected_district.title()}', size=15)
 ax.set_yticklabels([])
 
 # Display the radar chart in Streamlit
